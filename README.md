@@ -15,7 +15,7 @@ function type(obj) {
 
 ```javascript
 function isJSON(str) {
-  if (typeof str === 'string') {
+  if (typeof str === 'string') {1
     try {
       const obj = JSON.parse(str);
       if (typeof obj === 'object' && obj) {
